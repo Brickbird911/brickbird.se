@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Navigation() {
 	return (
 		<nav>
-			<Link href={'/'}>home</Link>
-			<Link href={'/about'}>ABOUT</Link>
+			<Link href={'/'}>Home</Link>
+			<Link href={'/about'}>About</Link>
 		</nav>
 	);
 }

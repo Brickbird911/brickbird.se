@@ -1,0 +1,13 @@
+.nav {
+	display: block;
+	padding: 32px;
+	border-radius: 16px;
+	background-color: darkgray;
+}
+.nav a {
+	display: block;
+	background-color: black;
+}
+.nav a:hover{
+	background-color: brown;
+}	
