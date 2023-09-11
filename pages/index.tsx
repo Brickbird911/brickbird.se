@@ -4,9 +4,8 @@ import styles from "../styles/navbar.module.css"
 export default function Index() {
 	return (
 		<main>
-			<div class=".nav">
-				<a href="/">home</a>
-			</div>
+			<Navigation />
+			<h1>Hello, world!</h1>
 		</main>
 	);
 }
