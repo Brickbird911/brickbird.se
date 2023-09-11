@@ -1,10 +1,6 @@
-import Navigation from "@/components/Navigation"
+import { render } from "react-dom";
 
-export default function Index() {
-	return (
-		<main>
-			<Navigation />
-			<h1>Hello, world!</h1>
-		</main>
-	);
-}
+import { App } from "./App";
+
+const rootElement = document.getElementById("root");
+render(<App />, rootElement);
