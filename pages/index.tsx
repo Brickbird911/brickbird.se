@@ -1,6 +1,11 @@
-import { render } from "react-dom";
+import Navigation from "@/components/Navigation"
+import navbar from "@/styles/navbar"
 
-import { App } from "./App";
-
-const rootElement = document.getElementById("root");
-render(<App />, rootElement);
+export default function Index() {
+	return (
+		<main>
+			<Navigation />
+			<h1>Hello, world!</h1>
+		</main>
+	);
+}

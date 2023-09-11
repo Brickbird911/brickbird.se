@@ -1,16 +1,11 @@
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
+import navbar from "@/styles/navbar"
 
-import "./navbar.css"
-<navbar></navbar>.css";
-
-export function NavBar() {
-  return (
-    <nav className="navbar-container">
-      <NavLink exact to="/">
-        Home
-      </NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-    </nav>
-  );
-}
+export default function Navigation() {
+	return (
+		<nav>
+			<Link href={'/'}>Home</Link>
+			<Link href={'/about'}>About</Link>
+		</nav>
+	);
+} 
