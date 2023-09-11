@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export default function Navigation() {
 	return (
 		<nav>
-			<a href="/">home</a>
-			<a href="/about">ABOUT</a>
+			<Link href={'/'}>home</Link>
+			<Link href={'/about'}>ABOUT</Link>
 		</nav>
 	);
 }
