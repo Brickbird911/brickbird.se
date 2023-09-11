@@ -1,13 +1,3 @@
-.nav {
-	display: block;
-	padding: 32px;
-	border-radius: 16px;
-	background-color: darkgray;
+a {
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.nav a {
-	display: block;
-	background-color: black;
-}
-.nav a:hover{
-	background-color: brown;
-}	
