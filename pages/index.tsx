@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation"
-import navbar from "@/styles/navbar"
+import styles from "../styles/navbar.module.css"
 
 export default function Index() {
 	return (
