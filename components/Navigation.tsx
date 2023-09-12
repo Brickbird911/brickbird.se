@@ -6,6 +6,7 @@ export default function Navigation() {
 			<NavigationItem name='Home' link='/' />
 			<div className='flex-1'></div>
 			<NavigationItem name='About' link='/about' />
+			<NavigationItem name='Logs' link='/log' />
 		</nav>
 	);
 } 
