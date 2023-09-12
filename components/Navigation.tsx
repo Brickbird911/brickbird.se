@@ -1,10 +1,11 @@
-import Link from "next/link";
+import NavigationItem from "./NavigationItem";
 
 export default function Navigation() {
 	return (
-		<nav>
-			<Link href={'/'}>Home</Link>
-			<Link href={'/about'}>About</Link>
+		<nav className='bg-black px-3 py-4 rounded-3xl m-2 flex flex-row items-center'>
+			<NavigationItem name='Home' link='/' />
+			<div className='flex-1'></div>
+			<NavigationItem name='About' link='/about' />
 		</nav>
 	);
 } 
