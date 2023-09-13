@@ -1,6 +1,17 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import { Changa_One, Changa_One } from 'next/font/google'
+
+const Changa_One = Changa_One({ subsets: ['latin'] })
+ 
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <main className={Changa_One.className}>
+      <Component {...pageProps} />
+    </main>
+  )
+}
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
