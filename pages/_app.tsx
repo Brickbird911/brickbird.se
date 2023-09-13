@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import { Changa_One, Changa_One } from 'next/font/google'
+import { Changa_One } from 'next/font/google'
 
 const Changa_One = Changa_One({ subsets: ['latin'] })
  
