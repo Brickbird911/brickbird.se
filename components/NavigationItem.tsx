@@ -9,7 +9,7 @@ const changaOne = Changa_One({
 
 export default function NavigationItem({ name = '', link = '', changa = false }) {
 	return (
-		<Link href={link} className={'text-white bg-black hover:bg-cyan-700 p-2 rounded-3xl ' + (changa ? changaOne.className : '')}>
+		<Link href={link} className={'text-white bg-black hover:bg-slate-700 p-2 rounded-3xl ' + (changa ? changaOne.className + ' text-2xl' : '')}>
 			<span>{name}</span>
 		</Link>
 	);
