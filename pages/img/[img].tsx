@@ -6,7 +6,9 @@ export default function Img() {
 	const router = useRouter();
 
 	return (
-		<main className= "flex justify-center items-center w-screen h-screen bg-black">
+		<main className= "flex justify-center items-center w-screen h-screen bg-black text-white">
+			<div className="top-01">
+			</div>
 			<Image alt='image' src={"/" + router.query.img + ".png"} className="w-auto h-[90%]" width={3872} height={2592}/>
 		</main>
 	)

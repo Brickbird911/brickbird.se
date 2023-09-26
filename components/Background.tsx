@@ -18,7 +18,7 @@ export default function Background(){
 		</div>
 		<h1>Nature</h1>
 		<div>
-			<Link href="/nature1">
+			<Link href="/img/nature1">
 				<Image alt="nature" src="/DSC_0444-(1).png" width={400} height={265}/>
 			</Link>
 		</div>
