@@ -5,7 +5,6 @@ export default function Index() {
 	return (
 		<main>
 			<Navigation />
-			<Background />
 		</main>
 	);
 }
