@@ -1,4 +1,4 @@
-export default function Bg() {
+export default function Bgcolors() {
 	return(
 		<main className={"bg-black"}>
 

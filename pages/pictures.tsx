@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation"
 
  export default function Pictures() {
 	return(
-		<main>
+		<main className={"bg-black"}>
 		 <Navigation />
 		 <Background />
 		 </main>
