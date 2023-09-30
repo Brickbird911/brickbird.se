@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Background(){
     return(
-    <main className={'text-slate-600 m-2 text-xl'}>
+    <main className={'text-slate-600 m-2 text-xl bg-black'}>
 		<h1>Aviation</h1>
 		<div className="flex flex-row m-2 gap-2">
 			<Link href="/img/plane1">
