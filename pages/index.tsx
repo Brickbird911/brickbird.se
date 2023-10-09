@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Index() {
 	return (
-		<main>
+		<main className="h-screen">
 			<Navigation />
-			<Colorsindex />
+			<Image alt="Background" src="/Untitled(1).jpg" width={2040} height={4050}/>
 		</main>
 	);
 }
