@@ -5,7 +5,7 @@ export default function Log() {
     return(
         <main className="h-screen bg-[#2E3440] text-slate-50">
             <Navigation />
-            <a>HEJ</a>
+            <a>The website is under construction</a>
         </main>
     )
 }
