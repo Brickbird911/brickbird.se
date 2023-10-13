@@ -2,9 +2,7 @@ export default function Indexcomp() {
 	return(
 		<main className="h-screen bg-[#371B58]">
 			<div className="">
-			<button>
-				<audio src="halloween23.mp3" controls autoPlay/>
-			</button>
+				<audio src="halloween23.mp3" autoPlay loop controls/>
 			</div>
 			<div className="flex flex-row-reverse mr-[200px] mt-[100px] text-[#F6635C] font-bold">
 				<a>This website is developed using React and designed with Tailwind css</a>
