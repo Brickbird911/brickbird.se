@@ -16,4 +16,4 @@ USER nextuser
 
 EXPOSE 3000
 ENV HOST=0.0.0.0 PORT=3000 NODE_ENV=production
-CMD ["dumb-init","node","server.js"] 
+CMD ["dumb-init","node","server.js"]
