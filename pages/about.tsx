@@ -5,7 +5,7 @@ export default function About() {
 	return(
 		<main className="w-screen h-screen m-0 p-0 text-[#e11c44] overflow-hidden">
 			<Image 
-				src="/images/img.png"
+				src="/images/img.jpg"
 				alt="hej"
 				width={500}
 				height={500}
