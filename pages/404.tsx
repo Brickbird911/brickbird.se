@@ -1,7 +1,17 @@
 export default function Notfound () {
 	return (
-		<main>
-			<h1>Well, this is awkward.</h1>
+		<main className="bg-black text-white h-screen flex items-center justify-center flex-col">
+			<div className="text-5xl mb-5">
+				<h1>
+					404 Not found
+				</h1>
+			</div>
+			<h1>
+				Here is a useless page to say that you wrote the url wrong.
+			</h1>
+			<h1>
+				If you still dont understand google it or something.
+			</h1>
 		</main>
 	)
 }
