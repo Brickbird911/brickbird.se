@@ -1,8 +1,9 @@
 import Nav from "@/components/Nav";
+import Link from "next/link";
 
 export default function Index() {
 	return(
-		<main className="w-screen h-screen m-0 p-0 bg-gradient-to-r from-pink-500 to-pink-300 text-white overflow-hidden">
+		<main className="w-screen h-screen bg-[#1a1a1d] p-0 m-0">
 			<Nav />
 		</main>
 	)
