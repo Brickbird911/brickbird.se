@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Notfound () {
 	return (
 		<main className="bg-black text-white h-screen flex items-center justify-center flex-col">
@@ -12,6 +14,7 @@ export default function Notfound () {
 			<h1>
 				If you still dont understand google it or something.
 			</h1>
+			<Link className="mt-5" href="/">Take Me Home</Link>
 		</main>
 	)
 }
