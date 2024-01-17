@@ -1,15 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function topnav () {
+export default function noctuanav () {
 	return (
-		<div className="w-screen flex items-center h-16 text-black dark:text-white bg-slate-200 dark:bg-[#161425]">
+		<div className="w-screen flex items-center h-16 text-[#D2B48C] bg-[#582C0C]">
 			<Link className="ml-5" href="/">Home</Link>
 			<div className="flex-1"></div>
 			<div className="flex">
-				<Link href="/noctua">
-					<Image src="/android-chrome-512x512.png" alt="logo" width={50} height={50}></Image>
-				</Link>
+				<Image src="/android-chrome-512x512.png" alt="logo" width={50} height={50}></Image>
 			</div>
 			<div className="flex-1"></div>
 			<div className="ml-auto order-2 mr-5">
