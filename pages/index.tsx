@@ -1,5 +1,6 @@
 import Topnav from "@/components/Topnav";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Index() {
 	return (
@@ -17,7 +18,7 @@ export default function Index() {
 							<a>We changed some colors on our pages</a>
 							<br />
 							<br />
-							<a className="underline" href="/changelog">Full changlog</a>
+							<Link className="underline" href="/changelog">Full changlog</Link>
 						</div>
 					</div>
 				</div>
