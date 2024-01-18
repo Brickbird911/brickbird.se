@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function noctuanav () {
 	return (
-		<div className="w-screen flex items-center h-16 text-[#D2B48C] bg-[#582C0C]">
+		<div className="w-screen flex items-center h-16 text-[#e7ceb5] bg-[#653024]">
 			<Link className="ml-5" href="/">Home</Link>
 			<div className="flex-1"></div>
 			<div className="flex">
