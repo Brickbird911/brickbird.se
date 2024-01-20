@@ -5,7 +5,7 @@ export default function changelog () {
 	return (
 		<>
 			<Head>
-				<title>Home | Brickbird.se</title>
+				<title>Changelog | Brickbird.se</title>
 			</Head>
 			<main className="w-screen h-screen bg-white dark:bg-[#080713] p-0 m-0">
 				<Topnav />
