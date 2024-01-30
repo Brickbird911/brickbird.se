@@ -1,11 +1,9 @@
-import Bg from "@/components/Background"
+import Topnav from "@/components/Topnav"
 
 export default function portalhub () {
 	return (
-		<main>
-			<Bg>
-				<a>hej</a>
-			</Bg>
+		<main className="bg-[]">
+			<Topnav />		
 		</main>
 	)
 }
