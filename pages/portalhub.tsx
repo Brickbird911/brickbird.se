@@ -12,7 +12,7 @@ export default function portalhub () {
 			</div>
 			<div className="flex justify-center align-middle font-medium mt-2">
 				<div className="border-2">
-					<Link href="/photgraphy">Photo album</Link>
+					<Link href="/photography">Photo album</Link>
 				</div>
 			</div>
 			<div className="flex justify-center align-middle font-medium mt-2">
