@@ -8,8 +8,7 @@ export default function Noctua () {
 			<Head>
 				<title>Noctua | Brickbird.se</title>
 			</Head>
-			<main>
-				<div className="w-screen h-screen text-[#582C0C] bg-[#e7ceb5]">
+			<main className="w-screen h-screen text-[#582C0C] bg-[#e7ceb5]">
 					<Noctuanav />
 					<div className="m-5">
 						<a>Noctua makes everything look good no matter what you say.</a>
@@ -21,7 +20,6 @@ export default function Noctua () {
 							<Image src="/noctua.webp" alt="noctua fan" width={500} height={500}></Image>
 						</div>
 					</div>
-				</div>
 			</main>
 		</>
 	)
